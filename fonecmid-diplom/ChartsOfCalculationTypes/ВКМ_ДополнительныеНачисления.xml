@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCalculationTypes uuid="6e14d33f-b0dc-45d1-bfb4-a9d9421c6f5f">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.ВКМ_ДополнительныеНачисления" category="Object">
+				<xr:TypeId>facd62b9-e336-46c7-9ba0-9c1ad58a54c4</xr:TypeId>
+				<xr:ValueId>19c2591d-299d-489f-a198-576b20f76f48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления" category="Ref">
+				<xr:TypeId>f670cc51-2779-409f-b7dc-9f6d604e4fef</xr:TypeId>
+				<xr:ValueId>5e6f023e-aa0c-43f0-8a25-f3cf1e37ff7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.ВКМ_ДополнительныеНачисления" category="Selection">
+				<xr:TypeId>94e2ec65-5e56-480c-8ccd-b35d6b337e4e</xr:TypeId>
+				<xr:ValueId>510d9c35-cb4f-44a6-9cf0-0310ded45732</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.ВКМ_ДополнительныеНачисления" category="List">
+				<xr:TypeId>886c64c0-b522-4081-9fb2-2941e9d1131c</xr:TypeId>
+				<xr:ValueId>3971279a-c9c4-40f1-9580-8aa2203527df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.ВКМ_ДополнительныеНачисления" category="Manager">
+				<xr:TypeId>4a59d73e-5481-409c-899e-dc78ff89ca5a</xr:TypeId>
+				<xr:ValueId>07d4f77a-59fe-43ae-9754-16e193b8b5a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.ВКМ_ДополнительныеНачисления" category="DisplacingCalculationTypes">
+				<xr:TypeId>8b3885c7-3319-47e9-bb54-7cac341daa83</xr:TypeId>
+				<xr:ValueId>2253696a-c41c-4e37-bab3-38f6bcb58cf0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.ВКМ_ДополнительныеНачисления" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>30024eed-e487-476d-934f-d3f8a699cdd7</xr:TypeId>
+				<xr:ValueId>7c68891d-20d9-45e5-955d-bbb77d32c6e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.ВКМ_ДополнительныеНачисления" category="BaseCalculationTypes">
+				<xr:TypeId>d8ceb5fa-a47a-4c1d-9384-3e7a04f7fc66</xr:TypeId>
+				<xr:ValueId>b6beeba2-ab51-424b-a488-f71e68d2cbfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.ВКМ_ДополнительныеНачисления" category="BaseCalculationTypesRow">
+				<xr:TypeId>5d9bf30d-feea-481b-9cff-6f4caaa3cd89</xr:TypeId>
+				<xr:ValueId>6518b6eb-7480-4a9b-9f2f-b27449eb5d55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.ВКМ_ДополнительныеНачисления" category="LeadingCalculationTypes">
+				<xr:TypeId>3817bfe7-fbf1-4473-a375-e42dd15e7d8c</xr:TypeId>
+				<xr:ValueId>16e70ac4-3cfe-4c3d-bab7-125c3424b817</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.ВКМ_ДополнительныеНачисления" category="LeadingCalculationTypesRow">
+				<xr:TypeId>52f85742-3133-4428-8611-1f68c8c6e49c</xr:TypeId>
+				<xr:ValueId>353971be-c5b6-404f-9c8b-42a580868cae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВКМ_ДополнительныеНачисления</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные начисления</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>40</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Description</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<BasedOn/>
+			<DependenceOnCalculationTypes>OnActionPeriod</DependenceOnCalculationTypes>
+			<BaseCalculationTypes>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</xr:Item>
+			</BaseCalculationTypes>
+			<ActionPeriodUse>false</ActionPeriodUse>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные начисления</v8:content>
+				</v8:item>
+			</ObjectPresentation>
+			<ExtendedObjectPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные начисления</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCalculationTypes>
+</MetaDataObject>

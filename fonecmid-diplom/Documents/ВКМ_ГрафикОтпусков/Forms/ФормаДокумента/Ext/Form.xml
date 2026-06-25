@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ДатаНомер" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ДатаНомерРасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ДатаАнализГр" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ДатаАнализГрРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="ВКМ_год" id="7">
+					<DataPath>Объект.ВКМ_год</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВКМ_годКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ВКМ_годРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<Button name="ВКМ_АнализГрафика" id="37">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ВКМ_АнализГрафика</CommandName>
+					<ExtendedTooltip name="ВКМ_АнализГрафикаРасширеннаяПодсказка" id="38"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ВКМ_ОтпускаСотрудников" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ВКМ_ОтпускаСотрудников</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ВКМ_ОтпускаСотрудниковКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ВКМ_ОтпускаСотрудниковКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ВКМ_ОтпускаСотрудниковСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ВКМ_ОтпускаСотрудников</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВКМ_ОтпускаСотрудниковСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ВКМ_ОтпускаСотрудниковСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ВКМ_ОтпускаСотрудников</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВКМ_ОтпускаСотрудниковСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ВКМ_ОтпускаСотрудниковУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ВКМ_ОтпускаСотрудников</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ВКМ_ОтпускаСотрудниковУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ВКМ_ОтпускаСотрудниковНомерСтроки" id="23">
+					<DataPath>Объект.ВКМ_ОтпускаСотрудников.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВКМ_ОтпускаСотрудниковНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ВКМ_ОтпускаСотрудниковВКМ_Сотрудник" id="26">
+					<DataPath>Объект.ВКМ_ОтпускаСотрудников.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВКМ_ОтпускаСотрудниковВКМ_СотрудникКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковВКМ_СотрудникРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<ColumnGroup name="Период" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа1</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<InputField name="ВКМ_ОтпускаСотрудниковВКМ_ДатаНачала" id="29">
+							<DataPath>Объект.ВКМ_ОтпускаСотрудников.ДатаНачала</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВКМ_ОтпускаСотрудниковВКМ_ДатаНачалаКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковВКМ_ДатаНачалаРасширеннаяПодсказка" id="31"/>
+							<Events>
+								<Event name="OnChange">ВКМ_ОтпускаСотрудниковВКМ_ДатаНачалаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончания" id="32">
+							<DataPath>Объект.ВКМ_ОтпускаСотрудников.ДатаОкончания</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияРасширеннаяПодсказка" id="34"/>
+							<Events>
+								<Event name="OnChange">ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+		<InputField name="ВКМ_Комментарий" id="43">
+			<DataPath>Объект.ВКМ_Комментарий</DataPath>
+			<ContextMenu name="ВКМ_КомментарийКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ВКМ_КомментарийРасширеннаяПодсказка" id="45"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВКМ_ГрафикОтпусков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВКМ_АнализГрафика" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ графика</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ВКМ_АнализГрафика</Action>
+		</Command>
+	</Commands>
+</Form>

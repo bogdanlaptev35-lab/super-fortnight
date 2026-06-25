@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.20">
+	<Item id="4d33b579-4519-4105-8f26-6daedf68fa79">
+		<Name>ВКМ_Оклад</Name>
+		<Code>1</Code>
+		<Description>Оклад</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Отпуск</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="fff925f5-d8c7-4f8e-9a39-9d0bfd4b9c53">
+		<Name>ВКМ_Отпуск</Name>
+		<Code>2</Code>
+		<Description>Отпуск</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ВКМ_ФиксПремия</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ВКМ_ПроцентОтРабот</CalculationType>
+		</Base>
+	</Item>
+</PredefinedData>
